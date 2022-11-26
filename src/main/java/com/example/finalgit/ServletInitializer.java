@@ -7,7 +7,10 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        String a = "asdaa";
         return application.sources(FinalGitApplication.class);
+
+
     }
 
 }
